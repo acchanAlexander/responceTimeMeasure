@@ -1,6 +1,6 @@
 $(function(){
-  window.rtm.onClickedNewRegistButton = () => {
-    window.location.href = '../new_regist/new_regist.html';
+  window.rtm.onClickedTransitionButton = (transitionName) => {
+    window.location.href = '../'+transitionName+'/'+transitionName+'.html';
   }
 });
 
